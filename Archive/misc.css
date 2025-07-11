@@ -1,0 +1,117 @@
+a:link{text-decoration:none; color: black;}
+/* a:hover{color:white; text-decoration:none;} */
+a:visited{text-decoration:none; color: black;}
+
+body{margin: 0 0 0 0;}
+
+table {
+  border-collapse: collapse;
+  width: 100vw; height: 100vh;
+  table-layout: fixed;
+  overflow: hidden;
+}
+
+#name{
+  width: 19vw;  
+}
+
+.heading{
+  font-family: 'helvetica', sans-serif; 
+  font-size: 16px;
+  font-weight: bold;
+  text-align:left; 
+  padding: 10px 0 10px 25px;  
+}
+
+.fourteen{
+    font-family: 'helvetica', sans-serif; 
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.body{
+  padding: 13px 25px 25px 25px;
+  vertical-align:bottom;
+  margin-bottom: 1.5vw;
+}
+
+.indexlist{
+  font-weight: normal;
+  padding: 13px 25px 25px 25px;
+  vertical-align:middle;
+}
+
+h2{
+  break-after: column;
+  font-weight: bold;
+  margin:0;
+}
+
+ol{
+  padding:24px;
+}
+
+.bio{
+  vertical-align: top;
+}
+
+.row1{
+  height: 3vh;
+}
+
+.scroll{
+  max-height: 94vh; 
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#misc{
+  background-color:black;
+}
+
+.misctext{
+  color:white;
+}
+
+.horizontal-gallery{
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom:1vw;
+}
+
+img{
+  height: 60vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video{
+  margin-bottom:1vw;
+  height:60vh;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: black; 
+  border-radius: 10px;
+}
+
+.twocol{
+  column-count:2; 
+  padding: 0 0.5vw 0 25px;
+  column-gap:42px;
+  margin-bottom:3vw;
+}
+
+.desc{
+  width:35vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3vw;
+}
